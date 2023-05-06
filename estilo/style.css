@@ -1,2 +1,32 @@
 @charset "UTF-8";
 
+/* Smartphone Portrait >>>>>>>>>>>>>*/
+body{
+    background-color: black;
+}
+
+/* Samrtphone landscape >>>>>>>>>>>>*/
+@media (min-width: 576px){
+      body {
+        background-color: blue;
+      }
+}
+/* Tablet portrait >>>>>>>>>>>>>>>>*/
+@media (min-width:768px){
+    body {
+        background-color: yellow;
+    }
+}
+/* Tablet Landscape >>>>>>>>>>>>>>>*/
+@media (min-width: 992px){
+    body {
+        background-color: red;
+    }
+}
+
+/* PC >>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+@media (min-width: 1200px){
+    body {
+        background-color: violet;
+    }
+}
