@@ -1,32 +1,49 @@
 @charset "UTF-8";
 
 /* Smartphone Portrait >>>>>>>>>>>>>*/
+
+
+/* importação google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+
 body{
-    background-color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
 }
 
-/* Samrtphone landscape >>>>>>>>>>>>*/
-@media (min-width: 576px){
-      body {
-        background-color: blue;
-      }
-}
-/* Tablet portrait >>>>>>>>>>>>>>>>*/
-@media (min-width:768px){
-    body {
-        background-color: yellow;
-    }
-}
-/* Tablet Landscape >>>>>>>>>>>>>>>*/
-@media (min-width: 992px){
-    body {
-        background-color: red;
-    }
+/* Cabeçalho */
+
+header {
+    height: 60px;
 }
 
-/* PC >>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
-@media (min-width: 1200px){
-    body {
-        background-color: violet;
-    }
+#logo > img {
+    width: 128px;
+    height: 128px;
+}
+
+/* Layout*/
+    .container {
+        margin: 0 auto;
+        background-color: chartreuse;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+}
+
+/* Topo do site */
+#topo {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
 }

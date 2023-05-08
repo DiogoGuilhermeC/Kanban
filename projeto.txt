@@ -1,0 +1,52 @@
+    <!-- Destaque -->
+    <main>
+        <div class="container">
+            <h1>Você faz. você vê. você aprende. </h1>
+        </div>
+
+    </main>
+
+    <!-- Sobre -->
+    <section>
+        <div class="container">
+            <h2>Aprender na pratica.</h2>
+        </div>
+
+    </section>
+
+    <!-- One page -->
+    <section>
+        <div class="container"> 
+
+        <h2>One page site</h2>
+
+        </div>
+
+    </section>
+
+    <!-- Wireframe -->
+    <section>
+        <div class="container">
+            <h2>Wireframe</h2>
+        </div>
+
+    </section>
+
+    <!-- Conteúdo -->
+    <section>
+        <div class="container">
+            <h2>Conteúdo</h2>
+            <h3>HTML5</h3>
+            <h3>BOX MODEL CSS</h3>
+            <h3>BREAKPOINTS</h3>
+        </div>
+
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="container">
+
+        </div>
+
+    </footer>

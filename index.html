@@ -6,45 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="imagens/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="estilo/style.css">
+    <link rel="stylesheet" href="estilo/media-query.css">
     <title>Document</title>
 </head>
 <body>
     <!-- Cabeçalho -->
-    <header>
+    <header id="inicio">
 
+        <div class="container flex">
+            <div id="logo">
+                <img src="imagens/logo.png" alt="hal 9000">
+            </div>
+
+            <nav>
+                <input type="checkbox" id="check">
+                <label for="check">&#x268c;</label>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Conteudo</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <!-- Destaque -->
-    <main>
-        <h1>Você faz. você vê. você aprende. </h1>
-    </main>
-
-    <!-- Sobre -->
-    <section>
-        <h2>Aprender na pratica.</h2>
-    </section>
-
-    <!-- One page -->
-    <section>
-        <h2>One page site</h2>
-    </section>
-
-    <!-- Wireframe -->
-    <section>
-        <h2>Wireframe</h2>
-    </section>
-
-    <!-- Conteúdo -->
-    <section>
-        <h2>Conteúdo</h2>
-        <h3>HTML5</h3>
-        <h3>BOX MODEL CSS</h3>
-        <h3>BREAKPOINTS</h3>
-    </section>
-
-    <!-- Rodapé -->
-    <footer>
-
-    </footer>
+    <a href="#inicio" id="topo"><img src="imagens/topo.png" alt="Topo do site"></a>
 </body>
 </html>

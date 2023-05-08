@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+/* Samrtphone landscape >>>>>>>>>>>>*/
+@media (min-width: 576px){
+    body {
+      background-color: blue;
+    }
+
+   /* Layout*/
+    .container {
+      max-width: 540px;
+  }
+}
+/* Tablet portrait >>>>>>>>>>>>>>>>*/
+@media (min-width:768px){
+  body {
+      background-color: yellow;
+  }
+  /* Layout*/
+  .container {
+      max-width: 720px;
+  }
+}
+/* Tablet Landscape >>>>>>>>>>>>>>>*/
+@media (min-width: 992px){
+  body {
+      background-color: red;
+  }
+
+  /* Layout*/
+  .container {
+      max-width: 960px;
+  }
+}
+
+/* PC >>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+@media (min-width: 1200px){
+  body {
+      background-color: violet;
+  }
+
+  /* Layout*/
+  .container {
+      max-width: 1140px;
+   }
+
+   /* cabeçalho */
+   header {
+    height: 120px;
+   }
+   
+   #logo img {
+    width: 189px;
+    height: 189px;
+    margin-top: 30px;
+   }
+}
