@@ -21,6 +21,7 @@ body{
 /* Cabeçalho */
 
 header {
+
     height: 60px;
 }
 
@@ -29,16 +30,51 @@ header {
     height: 128px;
 }
 
+#check {
+    display: none;
+}
+
+label {
+    font-size: 3em;
+    padding-right: 15px;
+}
+
+nav ul {
+    list-style: none;
+    background-color: #343538;
+    height: 100vh;
+    position: fixed;
+    top: 60px;
+    right: -100%;
+    width: 100%;
+    transition: all 0.5s;
+}
+
+#check:checked ~ ul {
+    right: 0px;
+}
+
+nav ul li {
+    padding: 20px;
+    border-bottom: 1px solid #a9a9a9;
+}
+
+ nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
 /* Layout*/
     .container {
         margin: 0 auto;
-        background-color: chartreuse;
+
 }
 
 .flex {
     display: flex;
     justify-content: space-between;
-    background-color: aqua;
+
+
 }
 
 /* Topo do site */

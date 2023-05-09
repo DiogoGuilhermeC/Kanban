@@ -2,9 +2,6 @@
 
 /* Samrtphone landscape >>>>>>>>>>>>*/
 @media (min-width: 576px){
-    body {
-      background-color: blue;
-    }
 
    /* Layout*/
     .container {
@@ -13,9 +10,7 @@
 }
 /* Tablet portrait >>>>>>>>>>>>>>>>*/
 @media (min-width:768px){
-  body {
-      background-color: yellow;
-  }
+
   /* Layout*/
   .container {
       max-width: 720px;
@@ -23,9 +18,7 @@
 }
 /* Tablet Landscape >>>>>>>>>>>>>>>*/
 @media (min-width: 992px){
-  body {
-      background-color: red;
-  }
+
 
   /* Layout*/
   .container {
@@ -35,9 +28,7 @@
 
 /* PC >>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 @media (min-width: 1200px){
-  body {
-      background-color: violet;
-  }
+ 
 
   /* Layout*/
   .container {
@@ -53,5 +44,29 @@
     width: 189px;
     height: 189px;
     margin-top: 30px;
+   }
+
+   label {
+    display: none;
+   }
+
+   nav ul {
+    position: static;
+    height: auto;
+    background-color: transparent;
+    margin-top: 50px;
+   }
+
+   nav ul li {
+    float: left;
+    border: 0;
+   }
+
+   nav ul li a {
+    color: #343538;
+   }
+
+   nav ul li a:hover {
+    color: #c00000;
    }
 }
