@@ -7,6 +7,10 @@
     .container {
       max-width: 540px;
   }
+
+  main h1, main h2 {
+    text-shadow: #000 0.05em 0.05em 0.05em;
+  }
 }
 /* Tablet portrait >>>>>>>>>>>>>>>>*/
 @media (min-width:768px){
@@ -14,6 +18,18 @@
   /* Layout*/
   .container {
       max-width: 720px;
+  }
+
+  main {
+    height: 45vh;
+  }
+
+  main h1 {
+    font-size: 5.5em;
+  }
+
+  main h2 {
+    font-size: 2em;
   }
 }
 /* Tablet Landscape >>>>>>>>>>>>>>>*/
@@ -23,6 +39,10 @@
   /* Layout*/
   .container {
       max-width: 960px;
+  }
+
+  main {
+    height: 70vh;
   }
 }
 
