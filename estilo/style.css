@@ -85,6 +85,7 @@ main {
     height: 75vh;
     background: url(../imagens/banner.jpg);
     background-size: cover;
+    background-position: center ;
     color: #fff;
     display: flex;
     flex-direction: column;
@@ -125,6 +126,7 @@ main h2 {
     padding: 50px 0px ;
     background: url(../imagens/background.png);
     background-size: cover;
+    background-position: center;
 }
 
 #destaquesobre {

@@ -92,3 +92,18 @@
     color: #c00000;
    }
 }
+
+/* sobre */ 
+
+#sobre {
+  background-attachment: fixed;
+}
+
+#destaquesobre {
+  display: inline;
+}
+
+#destaquesobre img {
+  border-radius: 50%;
+  margin-right: 50px;
+}
