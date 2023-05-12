@@ -1,10 +1,4 @@
-    <!-- Destaque -->
-    <main>
-        <div class="container">
-            <h1>Você faz. você vê. você aprende. </h1>
-        </div>
-
-    </main>
+  
 
     <!-- Sobre -->
     <section>
