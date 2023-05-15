@@ -11,6 +11,11 @@
   main h1, main h2 {
     text-shadow: #000 0.05em 0.05em 0.05em;
   }
+  /*one page */
+  #video iframe {
+    width: 560px;
+    height: 315px;
+ }
 }
 /* Tablet portrait >>>>>>>>>>>>>>>>*/
 @media (min-width:768px){
@@ -91,9 +96,8 @@
    nav ul li a:hover {
     color: #c00000;
    }
-}
 
-/* sobre */ 
+   /* sobre */ 
 
 #sobre {
   background-attachment: fixed;
@@ -107,3 +111,11 @@
   border-radius: 50%;
   margin-right: 50px;
 }
+
+/*one page */
+.flex3 {
+  flex-direction: row;
+  align-items: center;
+}
+}
+

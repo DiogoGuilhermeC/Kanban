@@ -41,6 +41,11 @@ justify-content: space-between;
     align-items: center;
 }
 
+.flex3 {
+    display: flex;
+    flex-direction: column;
+}
+
 #logo > img {
     width: 128px;
     height: 128px;
@@ -52,7 +57,10 @@ justify-content: space-between;
 
 label {
     font-size: 3em;
-    padding-right: 15px;
+    position: fixed;
+    top: 5px;
+    right: 15px;
+    color: rgba(0, 0, 0, 0.527);
 }
 
 nav ul {
@@ -129,8 +137,8 @@ main h2 {
     background-position: center;
 }
 
-#destaquesobre {
-    display: none;
+#destaquesobre img {
+   display: none;
 }
 
 #textosobre {
@@ -149,4 +157,24 @@ main h2 {
 
  .topicossobre img {
     margin-right: 10px;
+ }
+
+ /* One page */
+
+ #onepage {
+    padding: 50px 10px;
+ }
+
+ #onepage h2 {
+    margin-bottom: 10px;
+ }
+ 
+ #onepage p {
+    margin-bottom: 25px;
+ }
+
+ #video iframe {
+    width: 340px;
+    height: 191px;
+    border: 0px;
  }

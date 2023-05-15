@@ -1,23 +1,6 @@
   
 
-    <!-- Sobre -->
-    <section>
-        <div class="container">
-            <h2>Aprender na pratica.</h2>
-        </div>
-
-    </section>
-
-    <!-- One page -->
-    <section>
-        <div class="container"> 
-
-        <h2>One page site</h2>
-
-        </div>
-
-    </section>
-
+  
     <!-- Wireframe -->
     <section>
         <div class="container">
