@@ -117,5 +117,24 @@
   flex-direction: row;
   align-items: center;
 }
+
+/* wireframe */
+
+#Wireframe {
+  background-attachment: fixed;
+}
+
+#textowire span {
+  display: inline;
+}
+#qrcode {
+  display: inline;
+}
+
+  #qrcode img {
+    width: 225px;
+    height: 225px;
+  }
+
 }
 
