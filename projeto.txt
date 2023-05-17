@@ -1,29 +1,3 @@
   
 
-  
-    <!-- Wireframe -->
-    <section>
-        <div class="container">
-            <h2>Wireframe</h2>
-        </div>
 
-    </section>
-
-    <!-- Conteúdo -->
-    <section>
-        <div class="container">
-            <h2>Conteúdo</h2>
-            <h3>HTML5</h3>
-            <h3>BOX MODEL CSS</h3>
-            <h3>BREAKPOINTS</h3>
-        </div>
-
-    </section>
-
-    <!-- Rodapé -->
-    <footer>
-        <div class="container">
-
-        </div>
-
-    </footer>
